@@ -13,7 +13,7 @@
 }
 
 .advantages-items {
-  gap: 16px;
+  gap: 40px;
   display: flex;
   margin-top: 80px;
   flex-wrap: wrap;
@@ -45,4 +45,11 @@
 
 .advantage-text {
   margin-top: 40px;
+}
+
+
+@media (max-width: 700px) {
+  .advantages-items {
+    gap: 80px;
+  }
 }

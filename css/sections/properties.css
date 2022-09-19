@@ -33,3 +33,25 @@
 .properties-details li + li {
   margin-top: 20px;
 }
+
+@media (max-width: 800px) {
+  .properties > div {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .properties-details li {
+    flex-direction: column;
+  }
+
+  .properties-details li p {
+    font-weight: 600;
+    color: var(--color-5);
+  }
+
+  .properties-details li span {
+    color: var(--color-3);
+  }
+
+}

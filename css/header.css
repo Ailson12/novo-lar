@@ -28,7 +28,7 @@
 }
 
 .introduction {
-  gap: 20px;
+  gap: 30px;
   display: grid;
   align-items: center;
   padding-top: 70px;
@@ -39,4 +39,10 @@
 
 .introduction-text p {
   max-width: 55ch;
+}
+
+@media (max-width: 850px) {
+  .introduction {
+    grid-template-columns: 1fr;
+  }
 }

@@ -56,5 +56,22 @@
 }
 
 .form form button:hover {
-  background-color: rgba(11, 153, 101, 0.7);
+  background-color: rgb(209, 40, 79, 0.7);
+}
+
+@media (max-width: 850px) {
+  .form {
+    justify-self: center;
+    transform: translate(0, 0);
+  }
+}
+
+@media (max-width: 500px) {
+  .form form {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    padding: 30px 20px;
+  }
 }
