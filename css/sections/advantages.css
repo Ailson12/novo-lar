@@ -1,0 +1,48 @@
+.advantages {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.advantages p,
+.advantages h2 {
+  text-align: center;
+}
+
+.advantages > p {
+  margin-bottom: 8px;
+}
+
+.advantages-items {
+  gap: 16px;
+  display: flex;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.advantage-box {
+  padding: 40px;
+  display: flex;
+  max-width: 120px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-4);
+  position: relative;
+}
+
+.advantage-box::before {
+  content: "";
+  top: -14px;
+  left: -14px;
+  right: 14px;
+  bottom: 14px;
+  z-index: -1;
+  display: block;
+  box-shadow: inset 0 0 0 5px var(--color-3);
+  position: absolute;
+}
+
+.advantage-text {
+  margin-top: 40px;
+}
