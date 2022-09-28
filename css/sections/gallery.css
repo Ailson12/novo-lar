@@ -1,0 +1,39 @@
+
+.gallery-bg {
+  background-color: var(--color-5);
+}
+
+.gallery {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  gap: 2rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr;
+}
+
+.gallery .image-options {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gallery .image-options img {
+  cursor: pointer;
+  object-position: center;
+}
+
+.gallery .image-options img.active {
+  box-shadow: 0 0 0 4px var(--color-2);
+}
+
+.gallery .image-active img {
+  max-height: 500px;
+  width: 100%;
+}
+
+.gallery img {
+  object-fit: cover;
+  box-shadow: 0 0 0 4px var(--color-5), 0 0 0 5px var(--color-2);
+}

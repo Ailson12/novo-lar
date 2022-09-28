@@ -27,6 +27,7 @@
 
 .properties-details li {
   display: flex;
+  border-bottom: 1px dashed var(--color-3);
   justify-content: space-between;
 }
 
