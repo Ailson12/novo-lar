@@ -1,0 +1,23 @@
+{
+  "name": "novo-lar",
+  "version": "1.0.0",
+  "description": "Landing page para corretora de imoveis",
+  "main": "index.js",
+  "scripts": {
+    "css:compile": "cleancss --output ./css/styles.min.css ./css/styles.css --with-rebase",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ailson12/novo-lar.git"
+  },
+  "author": "Ailson Feitosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ailson12/novo-lar/issues"
+  },
+  "homepage": "https://github.com/Ailson12/novo-lar#readme",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.1"
+  }
+}
