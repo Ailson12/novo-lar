@@ -22,7 +22,7 @@ A estilização responsiva foi feita do zero, e esta contida em arquivos globais
 ## Javascript
 Utilizei javascript para setar no rodapé o ano atual e também para manipular uma simples galeria.
 
-![imagem galeria](./images/readme_gallery.png)
+![imagem galeria](./images/readme_gallery.PNG)
  
 
 ### Tecnologias utilizadas
