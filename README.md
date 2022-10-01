@@ -6,7 +6,7 @@ Este pequeno projeto foi desenvolvido em HTML, CSS e Javascript. Não possui fin
 
 ![imagem introducao projeto](./images/readme_header.png)
 
-<a href="https://ailson12.github.io/novo-lar/" target="_blank">Demonstração Online</a>
+<a rel="noopener" href="https://ailson12.github.io/novo-lar/" target="_blank">Demonstração Online</a>
 
 ## HTML
 Com o HTML tive o cuidado para que fosse escrito o mais semântico possível, ou seja, suas tags com o objetivo de descrever o significado do conteúdo, o que ajuda nos mecanismos de pesquisa. Por exemplo: Header indicando o cabeçalho, footer representando o rodapé, etc.
@@ -22,7 +22,7 @@ A estilização responsiva foi feita do zero, e esta contida em arquivos globais
 ## Javascript
 Utilizei javascript para setar no rodapé o ano atual e também para manipular uma simples galeria.
 
-<img src="./images/readme_gallery.png" >
+![imagem galeria](./images/readme_gallery.png)
  
 
 ### Tecnologias utilizadas
